@@ -42,7 +42,7 @@ export default function Card() {
         <div className="card">
             <img src={imgcard} alt="" />
             <h1>755_Store</h1>
-            <p>Самые качественные и доступные товары только у нас</p>
+            <p className="store">Самые качественные и доступные товары только у нас</p>
 
             <div className="card-links">
                 {links.map((item, i) => (
