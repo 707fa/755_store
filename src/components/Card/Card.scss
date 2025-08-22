@@ -26,7 +26,7 @@
 
   .card-links {
     width: 90% !important;
-  
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -82,6 +82,7 @@
         font-size: 10px;
         }
         .card-links{
+            margin-left: 10px;
         .card-link{
             .icon{
             font-size: 20px;
